@@ -195,7 +195,7 @@
 
 .card {
     width: 220px;
-    height: 300px;
+    height: 350px;
     box-shadow: 4px 8px 4px gray;
     border-radius: 5px;
 }
@@ -214,4 +214,48 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+
+/* footer section styles */
+footer {
+    margin-top: 30px;
+    background-image: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 500px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.footer-item {
+    width: 60%;
+}
+
+.footer-description {
+    margin-top: 10px;
+}
+
+.footer-title {
+    margin-bottom: 50px;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+
+.social-icon img {
+    margin-right: 20px;
 }
